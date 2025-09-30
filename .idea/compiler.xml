@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< Updated upstream
+
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dat100-javainnlevering2" target="23" />
     </bytecodeTargetLevel>
-=======
+
         <module name="dat100-javainnlevering2" />
       </profile>
     </annotationProcessing>
->>>>>>> Stashed changes
+
+        <module name="dat100-javainnlevering2" />
+      </profile>
+    </annotationProcessing>
   </component>
 </project>

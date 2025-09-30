@@ -1,11 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 # Editor-based HTTP Client requests
 /httpRequests/
-=======
->>>>>>> b1410d433a4c14f2f62405a2cbd0b7af377f244b
->>>>>>> Stashed changes
+

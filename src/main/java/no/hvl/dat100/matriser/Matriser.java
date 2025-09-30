@@ -4,16 +4,23 @@ public class Matriser {
 
 	// a)
 	public static void skrivUt(int[][] matrise) {
-		
-		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
-	}
+        for(int[] liste : matrise) {
+            for(int number : liste) {
+                System.out.println(number);
+            }
+        }
+    }
+    }
 
 	// b)
 	public static String tilStreng(int[][] matrise) {
+        for(int[] liste : matrise) {
+            for(int number : liste) {
+                System.out.println(number);
+            }
+        }
+    }
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 		
 	}
 

@@ -12,8 +12,9 @@ public class Tabeller {
 
 	// b)
 	public static String tilStreng(int[] tabell) {
-
-		return Arrays.toString(tabell);
+        String s = Arrays.toString(tabell);
+        s = s.replace(" ", "");
+        return s;
 	}
 
 	// c)

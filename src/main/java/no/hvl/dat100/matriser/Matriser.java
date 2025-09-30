@@ -61,12 +61,11 @@ public class Matriser {
     }
 
 
-	/* f)
+	// f)
 	public static int[][] multipliser(int[][] a, int[][] b) {
 
-        if(a.length == b[0].length) {
-            return a * b;
-        }
+// TODO
+        throw new UnsupportedOperationException("Metoden multipliser ikke implementert");
 
-	}*/
+	}
 }

@@ -4,17 +4,18 @@ public class Matriser {
 
 	// a)
 	public static void skrivUt(int[][] matrise) {
-        for(int[] liste : matrise) {
+		
+		for(int[] liste : matrise) {
             for(int number : liste) {
                 System.out.println(number);
             }
         }
-    }
-    }
+	}
 
 	// b)
 	public static String tilStreng(int[][] matrise) {
-        String s = "";
+
+		String s = "";
         for(int[] liste: matrise) {
             for(int tall: liste) {
                 s += tall + " ";
@@ -22,9 +23,6 @@ public class Matriser {
             s += "\n";
         }
         return s;
-    }
-
-		
 	}
 
 	// c)
@@ -38,17 +36,18 @@ public class Matriser {
         }
         return nyMatrise;
 
-    }
+	
+	}
 
 	// d)
 	public static boolean erLik(int[][] a, int[][] b) {
 
-        return a == b;
+		return a == b;
+		
 	}
 	
 	// e)
 	public static int[][] speile(int[][] matrise) {
-
         int rader = matrise.length;
         int kolonner = matrise[0].length;
         int[][] nyMatrise = new int[rader][kolonner];
@@ -59,8 +58,8 @@ public class Matriser {
             }
         }
         return nyMatrise;
-	
-	}
+    }
+
 
 	// f)
 	public static int[][] multipliser(int[][] a, int[][] b) {

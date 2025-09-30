@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dat100-javainnlevering2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dat100-javainnlevering2" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>

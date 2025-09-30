@@ -65,9 +65,7 @@ public class Matriser {
 	// f)
 	public static int[][] multipliser(int[][] a, int[][] b) {
 
-        if(a.length == b[0].length) {
-            return a * b;
-        }
+        
 	
 	}
 }

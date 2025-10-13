@@ -59,13 +59,5 @@ public class Matriser {
         }
         return nyMatrise;
     }
-
-
-	// f)
-	public static int[][] multipliser(int[][] a, int[][] b) {
-
-// TODO
-        throw new UnsupportedOperationException("Metoden multipliser ikke implementert");
-
-	}
+    
 }

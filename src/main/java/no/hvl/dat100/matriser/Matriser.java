@@ -59,5 +59,5 @@ public class Matriser {
         }
         return nyMatrise;
     }
-    
+
 }
